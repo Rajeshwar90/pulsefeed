@@ -1,8 +1,9 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Replace 'pulsefeed-ai' with your exact repository name if different
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/pulsefeed-ai/',
+  base: '/pulsefeed/', // MUST match your exact repository name surrounded by slashes!
 })
